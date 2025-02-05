@@ -1,8 +1,23 @@
-*.js
 !jest.config.js
 *.d.ts
 node_modules
+test
+.env
+static/node_modules
+static/.env
+static/build
+static/README.md
+static/.gitignore
+.history
+static/public/logo*.png
+static/src/logo.svg
 
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
+*/*/*/*/.DS_Store
